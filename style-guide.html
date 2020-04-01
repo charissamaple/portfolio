@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P1-Process</title>
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
     <link href="css/media-queries.css" rel="stylesheet">
     
 </head>
@@ -17,22 +18,14 @@
         <h1 id="pageTop"> P1 - Style Guide</h1>
 
         <nav class="guideNav">
-            <a href="shop.html" class="pageButton">Multiple Product Page</a>
-            <a href="checkout.html" class="pageButton">Checkout Page</a>
             <a href="#inTextLink">In text link</a>
             <a href="#navLink">navigation link</a>
             <a href="#buttons">Buttons</a>
-            <a href="#form">Form</a>
-            <a href="#reviewSection">Review</a>
-            <a href="#radioButton">Radio Buttons</a>
             <a href="#imageLink">Image as Link</a>
             <a href="#headings">Headings</a>
             <a href="#paragraphs">Paragraphs</a>
             <a href="#numberLists">Numbered lists</a>
             <a href="#mainNav">Main Navigation</a>
-            <a href="#productListing">Product Listing</a>
-            <a href="#paymentStyle">Payment Form</a>
-            <a href="#checkoutStyle">Checkout Cart</a>
         </nav>
     </header>
 
@@ -48,37 +41,8 @@
         </nav>
     </section>
 
-    <section class="element" id="buttons">
-        <h2>Submit/Reset Buttons</h2>
-        <button type="submit" value="Submit">Submit</button>
-        <button type="reset" value="Reset">Reset</button>
-    </section>
-
-    <section class="element" id="form">
-        <h2>Text Input Field with Label</h2>
-        <form action="/action_page.php">
-            <label for="name">Name: </label><input type="text" name="name" id="name"><br>
-            <label for="lname">Last name: </label><input type="text" name="lname" id="lname"><br>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-
-    <section class="element" id="reviewSection">
-        <h2>Review Form</h2>
-        <form action="/action_page.php">
-            <label for="email">Email:</label><input type="text" name="email" id="email"><br>
-            <label for="review">Review: </label><br><textarea name="review" id="review" placeholder="Write review here..."></textarea><br>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-
-    <section class="element" id="radioButton">
-        <h2>Radio Button with Label</h2>
-        <form action="/action_page.php">
-            <input type="radio" name="paymentType" value="visa"> Visa<br>
-            <input type="radio" name="paymentType" value="mastercard"> Mastercard<br>
-            <input type="radio" name="paymentType" value="debit"> Debit
-        </form>
+    <section>
+      buttons here
     </section>
 
     <section class="element" id="imageLink">
@@ -117,116 +81,6 @@
             <a href="contact.html">Customer Support</a>
             <a href="#checkout" id="navCartIcon"></a>
         </nav>
-    </section>
-
-    <section class="element" id="productListing">
-        <h2>Product/Service Listing</h2>
-        <div class="productCard">
-            <div class="productItem1">
-                <div>
-                    <img src="images/twice-kakaofriends-pillow.png" alt="twice kakaofriends pillow"> 
-                </div>
-                <div class="productTags">
-                    <a href="">#twice</a>
-                    <a href="">#kakaofriends</a>
-                </div>
-            </div>
-            <div class="productItem2">
-                <a>kakao friends twice edition</a>
-                <h1>Twice Kakao Friends Pillow</h1>
-                <p class="price">$38.00</p>
-                <p>Soft and cozy, comfortable for hugging all day long! With its super soft touch and texture, you can never stop holding and touching it. Perfect for bed-pillow, sofa back, car cushion and back cushion for a comfy reading book.
-                </p>
-                <p><button>Add to Cart</button></p>
-            </div>
-        </div>
-    </section>
-
-    <section class="element" id="paymentStyle">
-        <div>
-            <form action="/action_page.php" class="cardInfo">
-                <h2>Credit Card Information</h2>
-                <div class="paymentForm">
-                    <div class="formItem">
-                        <label for="fullname">Name on Card </label><br>
-                        <input type="text" name="fullname" id="fullname" placeholder="Doe"><br>
-                        <label for="card">Card Number </label><br>
-                        <input type="text" name="card" id="card" placeholder="0000 0000 0000 0000"><br>
-                        <label for="expiryDate">Expiry Date </label><br>
-                        <input type="text" name="expiryDate" id="expiryDate" placeholder="1/20"><br>
-                        <label for="cvv">CVV</label><br>
-                        <input type="text" name="cvv" id="cvv" placeholder="111"><br>
-                    </div>
-                    <div class="formItem">
-                        <label for="address">Address </label><br>
-                        <input type="text" name="address" id="address" placeholder="123 Fourth Street"><br>
-                        <label for="city">City </label><br>
-                        <input type="text" name="city" id="city" placeholder="New Westminster"><br>
-                        <label for="province">Province </label><br>
-                        <input type="text" name="province" id="province" placeholder="BC"><br>
-                        <label for="zip">Zip </label><br>
-                        <input type="text" name="zip" id="zip" placeholder="A1A 1A1"><br>
-                    </div>
-                </div>
-                <input id="checkoutButton" type="submit" value="Continue checkout">
-            </form>
-        </div>
-        
-    </section>
-
-    <section class="element" id="checkoutStyle">
-        <h2 id="checkout">Checkout Cart</h2>
-        <div class="checkoutSection">
-            <div class="cart">
-                <div class="cartItem1 topRow cartFirst">
-                    <h3>Image</h3>
-                </div>
-                <div class="cartItem2 topRow">
-                    <h3>Product</h3>
-                </div>
-                <div class="cartItem3 topRow">
-                    <h3>QTY.</h3>
-                </div>
-                <div class="cartItem4 topRow">
-                    <h3>Price</h3>
-                </div>
-                
-                <div class="cartItem1 cartProduct">
-                    <img src="images/twice-kakaofriends-cosmeticbag.png" alt="twice kakaofriends cosmetic bag">
-                </div>
-                <div class="cartItem2 cartProduct productName">
-                    <a href="products/twice-kk-cosbag.html">Twice Kakao Friends Cosmetics Bag</a>
-                </div>
-                <div class="cartItem3 cartProduct">
-                    <p class="quantity">1</p>
-                </div>
-                <div class="cartItem4 cartProduct">
-                    <p class="price">$19</p>
-                </div>
-                
-                <div class="cartItem1 cartProduct">
-                    <img src="images/twice-kakaofriends-pillow.png" alt="twice kakaofriends pillow" >
-                </div>
-                <div class="cartItem2 cartProduct productName">
-                    <a href="products/twice-kk-pillow.html">Twice Kakao Friends Pillow</a>
-                </div>
-                <div class="cartItem3 cartProduct">
-                    <p class="quantity">1</p>
-                </div>
-                <div class="cartItem4 cartProduct">
-                    <p class="price">$38</p>
-                </div>
-            </div>
-            <div class="totalPanel">
-                <h2>Order Summary</h2>
-                <div class="subPanel">
-                    <p>2 Items</p>
-                    <p>+ Shipping $10.50</p>
-                    <p>(Tax excl.)</p>
-                    <h4 class="totalPrice">Total: $67.50</h4>
-                </div>
-            </div>
-        </div>
     </section>
 
     <section class="artDirection">
