@@ -7,7 +7,7 @@
 body{
     font-family: work-sans, Helvetica, sans-serif;
     background-color: rgb(250, 250, 250);
-    margin: 2% 3%;
+    margin: 2% 5%;
 }
 section, header {
     margin: 2% 0;
@@ -15,15 +15,17 @@ section, header {
 p, a, ul, ol, li{
     font-size: 1.3rem;
     line-height: 1.8rem;
+    letter-spacing: .05rem;
 }
 h1{
     font-family: work-sans, Helvetica, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 8rem;
-    letter-spacing: 1.5rem;
+    font-size: 9rem;
+    letter-spacing: 1rem;
     color: #fff;
     text-transform: uppercase;
+    line-height: 8rem;;
 }
 h2{
     font-family: freight-big-pro, serif;
@@ -34,10 +36,10 @@ h2{
 }
 h3{
     font-family: work-sans, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     font-size: 1.4rem;
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
     color: #222;
     text-transform: uppercase;
 }
@@ -48,6 +50,7 @@ h4{
 }
 a:link, a:visited{
     text-decoration: none;
+    padding-bottom: 3px;
     border-bottom: 1px solid black;
     color: #222;
     transition: .2s ease-in-out;
@@ -67,6 +70,7 @@ p, ul, ol, li{
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 3% 0;
 }
 #logoLink{
     font-family: freight-big-pro, serif;
@@ -80,6 +84,28 @@ nav{
     margin-left: 20px;
 }
 
-/* div{
-    border: 1px solid black;
-} */
+.work-item{
+    text-align: center;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.item-number{
+}
+.item-title{
+    max-width: 70%;
+}
+.item-subtitle{
+    padding-bottom: 40px;
+}
+
+#aral-sea{
+    background-color: rgb(225, 240, 248);
+}
+#typo-space{
+    background-color: rgb(245, 241, 225);
+}
+
+/* div{ border: 1px solid black;}  */
