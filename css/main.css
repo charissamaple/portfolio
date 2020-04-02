@@ -6,13 +6,13 @@
 }
 body{
     font-family: work-sans, Helvetica, sans-serif;
-    background-color: rgb(230, 230, 230);
-    margin: 5% 0;
-}
-section, header {
+    background-color: rgb(250, 250, 250);
     margin: 2% 3%;
 }
-p, a{
+section, header {
+    margin: 2% 0;
+}
+p, a, ul, ol, li{
     font-size: 1.3rem;
     line-height: 1.8rem;
 }
@@ -42,7 +42,9 @@ h3{
     text-transform: uppercase;
 }
 h4{
+    font-size: 1.4rem;
     color: #777;
+    padding-top: 20px;
 }
 a:link, a:visited{
     text-decoration: none;
@@ -54,3 +56,30 @@ a:hover, a:active{
     opacity: .5;
     transition: .2s ease-in-out;
 }
+p, ul, ol, li{
+    max-width: 800px;
+}
+
+
+
+/* ----------------------------- HOME PAGE  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#logoLink{
+    font-family: freight-big-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+    border-bottom: none;
+    text-transform: lowercase;
+    font-size: 1.8rem;
+}
+.navLink{
+    margin-left: 20px;
+}
+
+/* div{
+    border: 1px solid black;
+} */
