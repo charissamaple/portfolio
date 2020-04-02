@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+body{
+    font-family: work-sans, Helvetica, sans-serif;
+    background-color: rgb(230, 230, 230);
+    margin: 5% 0;
+}
+section, header {
+    margin: 2% 3%;
+}
+p, a{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+h1{
+    font-family: work-sans, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 8rem;
+    letter-spacing: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+h2{
+    font-family: freight-big-pro, serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 7rem;
+    color: #222;
+}
+h3{
+    font-family: work-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.4rem;
+    letter-spacing: .2rem;
+    color: #222;
+    text-transform: uppercase;
+}
+h4{
+    color: #777;
+}
+a:link, a:visited{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: #222;
+    transition: .2s ease-in-out;
+}
+a:hover, a:active{
+    opacity: .5;
+    transition: .2s ease-in-out;
+}
