@@ -21,11 +21,13 @@ h1{
     font-family: work-sans, Helvetica, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 9rem;
-    letter-spacing: 1rem;
+    font-size: 10rem;
+    letter-spacing: 1.2rem;
     color: #fff;
+    /* color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: #000 2px; */
     text-transform: uppercase;
-    line-height: 8rem;;
+    line-height: 10rem;;
 }
 h2{
     font-family: freight-big-pro, serif;
@@ -93,9 +95,11 @@ nav{
     justify-content: space-between;
 }
 .item-number{
+    padding-top: 30px;
 }
 .item-title{
     max-width: 70%;
+    z-index: 1000;
 }
 .item-subtitle{
     padding-bottom: 40px;
@@ -103,24 +107,61 @@ nav{
 
 /* work items  */
 
+#aral-sea, #aral-bg, #aral-bg:hover, #aral-image, #typo-space, #typo-bg, #typo-bg:hover, #typo-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #aral-sea{
     height: 82vh;
     background-image: url("../images/aral-cover.jpg");
-    background-size: cover;
-    transition: .5s ease;
 }
 #aral-bg{
-    background-color: rgb(225, 240, 248);
+    background-color: #D6E9F9;
     transition: .5s ease;
+    position: relative;
 }
 #aral-bg:hover{
-    background-color: rgba(225, 240, 248, 0.3);
+    background-color: #d6e9f9dd;
     transition: .5s ease;
 }
+#aral-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+    height: 350px;
+    width: 450px;
+    background-image: url("../images/aral-image.png");
+    z-index: 500;
+}
 
 #typo-space{
-    background-color: rgb(245, 241, 225);
+    height: 82vh;
+    background-image: url("../images/typo-cover.jpg");
 }
+#typo-bg{
+    background-color: #EAE1FF;
+    transition: .5s ease;
+    position: relative;
+}
+#typo-bg:hover{
+    background-color: #EAE1FFdd;
+    transition: .5s ease;
+}
+#typo-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 350px;
+    width: 450px;
+    background-image: url("../images/typo-image.png");
+    z-index: 500;
+}
+
 
 /* div{ border: 1px solid black;}  */
