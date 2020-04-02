@@ -101,19 +101,20 @@ nav{
     padding-bottom: 40px;
 }
 
+/* work items  */
+
 #aral-sea{
     height: 82vh;
     background-image: url("../images/aral-cover.jpg");
     background-size: cover;
     transition: .5s ease;
-    z-index: -100; 
 }
 #aral-bg{
     background-color: rgb(225, 240, 248);
     transition: .5s ease;
 }
 #aral-bg:hover{
-    background-color: rgba(225, 240, 248, 0.7);
+    background-color: rgba(225, 240, 248, 0.3);
     transition: .5s ease;
 }
 
