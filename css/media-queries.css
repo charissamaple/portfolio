@@ -20,21 +20,78 @@
 }
 
 @media only screen and (max-width: 800px){
+    nav{
+        margin: 4% 0;
+    }
+    body{
+        margin: 2% 5%;
+    }
+    section{
+        margin: 4% 0;
+    }
+
     .work-item, #aral-sea, #typo-space{
-        height: 65vh;
+        height: auto;
     }
     .item-title h1, #typo-space .item-title h1{
         color: #000; 
-        font-size: 5rem;  
-        line-height: 5rem;
+        font-size: 3.1rem;  
+        line-height: 3rem;
         letter-spacing: .3rem;
     }
     .item-title{
-        padding-top: 50%;
-        height: 70%;
+        padding-top: 330px;
     }
-
+    .item-subtitle{
+        padding-top: 8px;
+    }
     #aral-image, #typo-image{
-        top: 42%;
+        top: 0%;
+        transform: translate(-50%, 0);
+        margin-top: 45px;
+    }
+    h3{
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #aral-image, #typo-image{
+        height: 250px;
+        width: 300px;
+    }
+    .item-title{
+        padding-top: 232px;
+    }
+    .item-subtitle{
+        padding-top: 8px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    nav{
+        margin: 13% 0 10% 0;
+    }
+    body{
+        margin: 5% 8%;
+    }
+    section{
+        margin: 6% 0;
+    }
+    #aral-image, #typo-image{
+        height: 200px;
+        width: 250px;
+    }
+    .item-title{
+        padding-top: 185px;
+    }
+    .item-title h1, #typo-space .item-title h1{
+        font-size: 2.6rem;  
+        line-height: 2.3rem;
+        letter-spacing: .3rem;
+    }
+    .item-subtitle{
+        padding-top: 8px;
     }
 }
