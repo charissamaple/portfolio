@@ -3,6 +3,9 @@
         font-size: 8.5rem;
         line-height: 8.5rem;
     }
+    .work-button{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1000px){
@@ -43,7 +46,8 @@
         padding-top: 330px;
     }
     .item-subtitle{
-        padding-top: 8px;
+        padding-top: 15px;
+        padding-bottom: 90px;
     }
     #aral-image, #typo-image{
         top: 0%;
@@ -54,6 +58,13 @@
         font-weight: 400;
         font-size: 1.2rem;
     }
+    .work-button{
+        display: block;
+        position: absolute;
+        bottom: 8%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
 }
 
 @media only screen and (max-width: 600px){
@@ -63,9 +74,6 @@
     }
     .item-title{
         padding-top: 232px;
-    }
-    .item-subtitle{
-        padding-top: 8px;
     }
 }
 
@@ -90,8 +98,5 @@
         font-size: 2.6rem;  
         line-height: 2.3rem;
         letter-spacing: .3rem;
-    }
-    .item-subtitle{
-        padding-top: 8px;
     }
 }
