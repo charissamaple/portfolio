@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1150px){
+    #typo-space .item-title h1{
+        font-size: 8.5rem;
+        line-height: 8.5rem;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    #typo-space .item-title h1{
+        font-size: 7.5rem;
+        line-height: 7rem;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    #typo-space .item-title h1{
+        font-size: 6.5rem;
+        line-height: 6.5rem;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .work-item, #aral-sea, #typo-space{
+        height: 65vh;
+    }
+    .item-title h1, #typo-space .item-title h1{
+        color: #000; 
+        font-size: 5rem;  
+        line-height: 5rem;
+        letter-spacing: .3rem;
+    }
+    .item-title{
+        padding-top: 50%;
+        height: 70%;
+    }
+
+    #aral-image, #typo-image{
+        top: 42%;
+    }
+}
