@@ -12,10 +12,14 @@ body{
 section, header {
     margin: 2% 0;
 }
-p, a, ul, ol, li{
-    font-size: 1.3rem;
-    line-height: 1.8rem;
-    letter-spacing: .05rem;
+p, ul, ol, li{
+    font-family: work-sans, Helvetica, sans-serif;
+    font-weight: 300;
+
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    letter-spacing: .03rem;
+    padding-bottom: 25px;
 }
 h1{
     font-family: work-sans, Helvetica, sans-serif;
@@ -33,11 +37,11 @@ h2{
     font-family: freight-big-pro, serif;
     font-weight: 700;
     font-style: normal; 
-    font-size: 7rem;
+    font-size: 3rem;
     color: #222;
 }
 h3{
-    font-family: work-sans, sans-serif;
+    font-family: work-sans, Helvetica, sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 1.4rem;
@@ -46,11 +50,28 @@ h3{
     text-transform: uppercase;
 }
 h4{
-    font-size: 1.4rem;
-    color: #777;
+    font-size: 1.6rem;
+    color: #00000086;
+    font-family: work-sans, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding-top: 20px;
+    line-height: 2.3rem;
+}
+h5{
+    font-family: work-sans, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    letter-spacing: .06rem;
+    font-weight: 600;
+    padding-bottom: 10px;
 }
 a:link, a:visited{
+    font-family: work-sans, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+
     text-decoration: none;
     padding-bottom: 3px;
     border-bottom: 1px solid black;
@@ -60,9 +81,6 @@ a:link, a:visited{
 a:hover, a:active{
     opacity: .5;
     transition: .2s ease-in-out;
-}
-p, ul, ol, li{
-    max-width: 800px;
 }
 .btn{
     padding: 1rem 1.4rem;
@@ -80,6 +98,10 @@ p, ul, ol, li{
     font-size: 1.2rem;
     letter-spacing: .2rem;
     text-transform: uppercase;
+}
+img{
+    width: 100%;
+    padding-bottom: 15px;
 }
 
 /* ----------------------------- FOOTER  */
@@ -118,6 +140,9 @@ nav{
 }
 .item-number{
     padding-top: 30px;
+}
+.item-number h2{
+    font-size: 7rem;
 }
 .item-title{
     max-width: 80%;
@@ -186,6 +211,82 @@ nav{
     width: 450px;
     background-image: url("../images/typo-image.png");
     z-index: 500;
+}
+
+/* ----------------------------- PROJECT PAGE */
+
+.project-banner{
+    height: auto;
+}
+.banner-content{
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.proj-number h2{
+    font-size: 7rem;
+}
+.proj-title h1{
+    color: #000;
+    padding: 60px;
+}
+.proj-subtitle{
+    max-width: 750px;
+    padding-bottom: 5rem;
+    padding: 0 3rem 5rem 3rem;
+}
+
+.project-content{
+    padding: 3% 20%;
+}
+
+/* introduction */
+
+.content-intro{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.intro-deets{
+    width: 28%;
+}
+.intro-deets h5, .intro-deets p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #777777;
+}
+.intro-des{
+    width: 60%;
+}
+
+/* project content */
+
+.project-content h2{
+    padding: 40px 0 20px 0;
+}
+
+.img-2-col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img-2-col img{
+    width: 49%;
+}
+
+#aral-proj-banner{
+    /* background-image: url("../images/aral-cover.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#aral-proj-bg{
+    height: auto;
+    background-color: #d6e9f9ee;
 }
 
 
