@@ -13,6 +13,9 @@
         font-size: 7.5rem;
         line-height: 7rem;
     }
+    .split-left, .split-right{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 900px){
@@ -92,6 +95,10 @@
     }
     .img-2-col img{
         width: 100%;
+    }
+
+    .split-content .img-2-col img{
+        width: 49%;
     }
 }
 

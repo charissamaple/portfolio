@@ -15,10 +15,11 @@ section, header {
 p, ul, ol, li{
     font-family: work-sans, Helvetica, sans-serif;
     font-weight: 300;
+    color: #000;
 
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     line-height: 2.5rem;
-    letter-spacing: .03rem;
+    letter-spacing: .05rem;
     padding-bottom: 25px;
 }
 h1{
@@ -248,7 +249,7 @@ nav{
     padding: 60px;
 }
 .proj-subtitle{
-    max-width: 800px;
+    max-width: 820px;
     padding-bottom: 5rem;
     padding: 0 7rem 5rem 7rem;
 }
@@ -265,7 +266,7 @@ nav{
     flex-wrap: wrap;
 }
 .intro-deets{
-    width: 28%;
+    width: 32%;
 }
 .intro-deets h5, .intro-deets p{
     font-size: 1.3rem;
@@ -293,17 +294,51 @@ nav{
 .end-link{
     padding: 30px 0;
 }
+.split-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.split-left{
+    width: 45%;
+}
+.split-right{
+    width: 50%;
+}
 
-#aral-proj-banner{
-    /* background-image: url("../images/aral-cover.jpg"); */
+/* #aral-proj-banner{
+    background-image: url("../images/aral-cover.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 #aral-proj-bg{
     height: auto;
-    background-color: #d6e9f9ee;
+    background-color: #D6E9F9;
+}
+#typo-proj-bg{
+    height: auto;
+    background-color: #EAE1FF;
 }
 
 
 /* div{ border: 1px solid black;}  */
+
+
+
+#style-guide{
+    background-color: #fff;
+}
+#style-guide section, header{
+    background-color: #eeeeee;
+    padding: 20px 40px;
+}
+
+#citations{
+    padding: 20px 40px;
+    background-color: #202020;
+}
+#citations h2, #citations li > a{
+    color: white;
+    border-color: white;
+}
