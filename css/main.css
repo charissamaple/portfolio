@@ -321,6 +321,16 @@ nav{
     background-color: #EAE1FF;
 }
 
+/* ----------------------------- ABOUT */
+
+#about{
+    padding: 10% 25%;
+    height: 60vh;
+}
+#about h2{
+    padding-bottom: 2rem;
+}
+
 
 /* div{ border: 1px solid black;}  */
 
