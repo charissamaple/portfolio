@@ -202,7 +202,8 @@ nav{
 
 #typo-space{
     height: 82vh;
-    background-image: url("../images/typo-cover.jpg");
+    background-image: url("../images/typo-cover1.png");
+    background-position: bottom center;
 }
 #typo-bg{
     background-color: #EAE1FF;
@@ -247,9 +248,9 @@ nav{
     padding: 60px;
 }
 .proj-subtitle{
-    max-width: 750px;
+    max-width: 800px;
     padding-bottom: 5rem;
-    padding: 0 3rem 5rem 3rem;
+    padding: 0 7rem 5rem 7rem;
 }
 
 .project-content{
@@ -269,7 +270,7 @@ nav{
 .intro-deets h5, .intro-deets p{
     font-size: 1.3rem;
     line-height: 2rem;
-    color: #777777;
+    /* color: #777777; */
 }
 .intro-des{
     width: 60%;
