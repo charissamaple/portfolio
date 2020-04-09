@@ -129,6 +129,10 @@ footer a{
 
 nav{
     display: flex;
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
     justify-content: space-between;
     margin: 3% 0;
 }
@@ -148,6 +152,10 @@ nav{
     text-align: center;
     height: 82vh;
     display: flex;
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -237,6 +245,10 @@ nav{
     height: auto;
     text-align: center;
     display: flex;
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -263,6 +275,10 @@ nav{
 
 .content-intro{
     display: flex;
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -286,8 +302,6 @@ nav{
 
 .img-2-col{
     display: inline-block;
-    /* flex-wrap: wrap;
-    justify-content: space-between; */
 }
 .img-2-col img{
     width: 49%;
@@ -297,6 +311,10 @@ nav{
 }
 .split-content{
     display: flex;
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
