@@ -16,6 +16,11 @@
     .split-left, .split-right{
         width: 100%;
     }
+    .proj-title h1{
+        font-size: 6rem;
+        padding: 20px;
+        line-height: 6rem;
+    }
 }
 
 @media only screen and (max-width: 900px){
@@ -25,6 +30,9 @@
     }
     .project-content{
         padding: 3% 15%;
+    }
+    #about{
+        padding: 10% 20%;
     }
 }
 
@@ -110,6 +118,15 @@
     .item-title{
         padding-top: 232px;
     }
+    .proj-title h1{
+        font-size: 4rem;
+        padding: 20px;
+        line-height: 4rem;
+        letter-spacing: .5rem;
+    }
+    #about{
+        padding: 15% 15%;
+    }
 }
 
 @media only screen and (max-width: 400px){
@@ -135,16 +152,20 @@
         letter-spacing: .3rem;
     }
 
-
     .proj-title h1{
-        font-size: 3.5rem;
-        letter-spacing: .7rem;
+        font-size: 3.2rem;
+        letter-spacing: .3rem;
         padding: 40px;
+        line-height: 3.5rem;
     }
     .proj-subtitle{
         padding: 0 2.5rem 3rem 2.5rem;
     }
     .project-content{
         padding: 0;
+    }
+
+    #about{
+        padding: 15% 0; 
     }
 }
